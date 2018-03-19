@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-const token = "Mzg1ODI5MDYyNTE1MzU5NzQ0.DYOMKA.LxOPYMQNwwHGiw_IfPWHxOqNLMc";
+const token = process.env.TOKEN;
 var prefix = "$";
 var memberCount = client.users.size;
 var servercount = client.guilds.size;
